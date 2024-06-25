@@ -1,17 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
 
 * {
-    font-family: 'Albert Sans', sans-serif;
-}
-
-/* FONTS */
-::selection {
-    color: #1F2937;
-    background: aliceblue;
-}
-
-.italics {
-    font-style: italic;
+    font-family: 'Albert Sans', 'Noto Sans Mono', sans-serif;
 }
 
 body {
@@ -46,6 +37,7 @@ header {
 .hero {
     display: flex;
     justify-content: space-between;
+
     gap: 48px;
     padding: 24px 10% 48px 10%;
     
@@ -60,6 +52,7 @@ header {
 .hero-img {
     width: 200px;
     flex: 1;
+    border-radius: 4px;
 }
 
 .bullet-list {
@@ -70,8 +63,40 @@ header {
 
 
 
-/* LINKS N BUTTONS */
+/* TEXT N LINKS N BUTTONS */
 .link {
     color:cadetblue;
 }
 
+.outline-button {
+    border-color: white;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+/* FONTS */
+::selection {
+    color: #1F2937;
+    background: aliceblue;
+}
+
+.italics {
+    font-style: italic;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.noto {
+    font-family: 'Noto Sans Mono';
+}
