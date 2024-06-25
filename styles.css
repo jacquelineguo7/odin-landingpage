@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+
+* {
+    font-family: 'Albert Sans', sans-serif;
+}
+
+/* FONTS */
+::selection {
+    color: #1F2937;
+    background: aliceblue;
+}
+
+.italics {
+    font-style: italic;
+}
+
+body {
+    margin: 0px;
+}
+
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 12px 10% 12px 10%;
+}
+
+.nav-link, .logo {
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.nav-link {
+    list-style-type: none;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    padding: 24px 10% 48px 10%;
+    
+    background-color: #1F2937;
+    color: white;
+}
+
+.columns {
+    flex: 1;
+}
+
+.hero-img {
+    width: 200px;
+    flex: 1;
+}
+
+.bullet-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+/* LINKS N BUTTONS */
+.link {
+    color:cadetblue;
+}
+
